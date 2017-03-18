@@ -117,7 +117,7 @@ nav {
 
 
 /** Footer */
-footer {
+.footer-main {
     border-top: solid 1px #e3e3e3;
     padding-top: 16px;
     z-index: 1000;
@@ -168,4 +168,28 @@ footer {
 
 .hero {
     background-color: #ffcc33;
+}
+
+.prefooter {
+    background-color: #273443;
+    padding-top: 16px;
+}
+
+.prefooter ul {
+    list-style: none;
+}
+
+.prefooter a {
+    text-decoration: none;
+    color: white;
+}
+
+.prefooter li {
+    line-height: normal;
+}
+
+.prefooter-header {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.6);
 }
