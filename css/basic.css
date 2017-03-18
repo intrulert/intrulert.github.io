@@ -1,0 +1,151 @@
+/*
+@font-face {
+font-family: 'Raleway';
+src: url("../fonts/Raleway-Thin.ttf");
+font-weight: 300;
+}
+*/
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../fonts/Raleway-Medium.ttf");
+    font-weight: 600;
+}
+
+.landing {
+    margin-top: 25%;
+    padding-bottom: 25%;
+}
+
+.side-image {
+    max-height: 250px;
+}
+
+.hash {
+    color: #33c3f0;
+
+}
+
+.menu {
+    visibility: hidden;
+}
+
+.about-image {
+    display: none;
+    max-height: 320px;
+}
+
+.message-button {
+    display: none;
+}
+
+.alt-section {
+    background-color: #f1f1f1;
+}
+
+/** Screens larger than 750px **/
+@media (min-width: 750px) {
+    .menu {
+        visibility: visible;
+    }
+
+    .about-image {
+        margin-top: 20%;
+        display: block;
+        max-height: 480px;
+    }
+    
+    .landing {
+    margin-top: 25%;
+    padding-bottom: 22rem;
+}
+}
+
+@media (min-width: 1000px) {
+    .about-image {
+        margin-top: 12rem;
+        display: block;
+    }
+    
+    .message-button {
+        display: block;
+    }
+}
+
+@media (min-width: 550px) {
+    .about-image {
+        margin-top: 12rem;
+        display: block;
+    }
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #ffcc33;
+    z-index: 1000;
+    display: block;
+}
+
+
+/** Footer */
+footer {
+    border-top: solid 1px #e3e3e3;
+    padding-top: 16px;
+    z-index: 1000;
+}
+
+/*Strip the ul of padding and list styling*/
+.nav-items {
+    list-style-type:none;
+    margin-bottom:0;
+    padding:0;
+    position: absolute;
+}
+
+/*Create a horizontal list with spacing*/
+.nav-items li {
+    display:inline-block;
+    float:  left;
+    position: relative;
+    margin-right: 1px;
+    margin-top: 0.5rem;
+
+}
+
+/*Style for menu links*/
+.tab {
+    display:block;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    margin-bottom: 0;
+    color: black;
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.tab:hover {
+    color: white;
+}
+
+
+/** Logo */
+.brand-logo {
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero {
+    background-color: #ffcc33;
+}
