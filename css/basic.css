@@ -32,6 +32,12 @@ font-weight: 300;
 
 }
 
+.mobile-nav {
+    margin-top: 50px;
+    display: block;
+    z-index: 1000;
+}
+
 .menu {
     visibility: hidden;
 }
@@ -49,6 +55,13 @@ font-weight: 300;
     background-color: #f1f1f1;
 }
 
+@media (min-width: 550px) {
+    .about-image {
+        margin-top: 12rem;
+        display: block;
+    }
+}
+
 /** Screens larger than 750px **/
 @media (min-width: 750px) {
     .menu {
@@ -61,10 +74,18 @@ font-weight: 300;
         max-height: 480px;
     }
     
+    .mobile-nav {
+        display: none;
+    }
+    
     .landing {
     margin-top: 25%;
     padding-bottom: 22rem;
-}
+    }
+    
+    .increase-margin {
+        padding-top: 25%;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -76,14 +97,9 @@ font-weight: 300;
     .message-button {
         display: block;
     }
+    
 }
 
-@media (min-width: 550px) {
-    .about-image {
-        margin-top: 12rem;
-        display: block;
-    }
-}
 
 /* Navigation */
 nav {
