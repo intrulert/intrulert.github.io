@@ -15,7 +15,7 @@
 
         <!-- FONT
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-         <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css" >
+        <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
         <!-- CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -41,9 +41,9 @@
                     </div>
                     <div class="eight columns">
                         <ul class="nav-items menu u-max-full-width">
-                            <li><a class="tab" href="#about">Features</a></li>
-                            <li><a class="tab" href="packages_subscription.html#packages">Purchase</a></li>
-                            <li><a class="tab" href="packages_subscription.html#subscription">Subscription</a></li>
+                            <li><a class="tab" href="features.html">Features</a></li>
+                            <li><a class="tab" href="packages.html">Purchase</a></li>
+                            <li><a class="tab" href="subscription.html">Subscription</a></li>
                             <li><a class="tab" href="#gallery">Blog</a></li>
                         </ul>
                     </div>
@@ -51,73 +51,42 @@
             </div>
         </nav>
         <main>
-            <div class="hero">
-                <div class="container">
-                    <div class="row" id="about">
-                        <div class="one-half column">
-                            <img alt="happy me" src="images/intrulert_phone-01.png" class="u-max-full-width about-image"/>
-                        </div>
-                        <div class="one-half column  landing">
-                            <h4>Welcome to Intrulert!</h4>
-                            <p>With Intrulert Smart Security, your protection is automated and we put you in total control of your home or business' security. All at the convenience of your smartphone.</p>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="one-half column">
-                                        <a class="button button-primary" href="features.html">Read more</a>
-                                    </div>
 
-                                    <div class="one-half column">
-                                        <a class="button" href="#how-it-works">How it works</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="container welcome" id="subscription" style="padding-top:5%; border-bottom: 1px solid #eee; padding-bottom:6%">
+                <h3>Subscriptions</h3>
+                <p>We are offering these subscriptions at discounted prices till <strong>15th May, 2017</strong></p>
 
-            <div class="container" style="padding-top: 10%; padding-bottom: 10%" id="how-it-works">
-                <h3>How does it work!</h3>
                 <div class="row">
-                    <div class="one-half column increase-margin-minor">
-                        <h4>Install Sentries.</h4>
-                        <p>Sentries are tiny active watchmen that report intrusion on time. These sentinels are installed at prospective intrusion points. They report intrusion exactly when one happens. </p>
-                        <a class="button" href="todo.html">See them in action</a>
-                    </div>
-
-                    <div class="one-half column">
-                        <img alt="sentinels" src="images/sentinel.png" class="u-max-full-width"/>
-                    </div>
+                    <p>Please configure your configuration package below. Click on <strong>Calculate</strong> to find out the cost of your preferred subscription</p>
                 </div>
-            </div>
-            <div class="alt-section">
-                <div class="container" style="padding-top: 10%">
+
+                <form>
                     <div class="row">
                         <div class="one-half column">
-                            <img src="images/rsz_realtime_update.png" alt="realtime updates" class="u-max-full-width"/>
+                            <label for="numOfMonths">Number of Months</label>
+                            <input class="u-full-width" type="number" id="numOfMonths" value="1">
                         </div>
-
-                        <div class="one-half column increase-margin">
-                            <h4>Receive real-time updates.</h4>
-                            <p>With the Intrulert mobile app, you receive real-time update on intrusion and safety periods. You take control from there. At the convenience of your smartphone.</p>
+                    </div>
+                    <div class="row">
+                        <div class="one-half column">
+                            <label>
+                                <input type="checkbox">
+                                <span class="label-body">Send SMS intrusion alerts</span>
+                            </label>
                         </div>
-
                     </div>
-                </div>
-            </div>
-
-            <div class=" container" style="padding-top: 10%; padding-bottom: 10%">
-                <div class="row">
-                    <div class="one-half column">
-                        <img src="images/take_control.jpg" alt="take control" class="u-max-full-width"/>
+                    <div class="row">
+                        <div class="one-half column">
+                            <label>
+                                <input type="checkbox">
+                                <span class="label-body">Stream security videos</span>
+                            </label>
+                        </div>
                     </div>
+                    <p><strong>Please note:</strong> Push notification are already included in every subscription.</p>
 
-                    <div class="one-half column increase-margin-minor">
-                        <h4>Take control.</h4>
-                        <p>The Intrulert smart app gives you total control to manage your security. You can configure emergency situations, make manual decisions and much more.</p>
-                        <a class="button button-primary">Install app.</a>
-                    </div>
-                </div>
+                    <input type="button" value="calculate" class="button-primary">
+                </form>
             </div>
         </main>
 
@@ -132,7 +101,7 @@
                                 <li><a href="features.html">Features</a></li>
                                 <li><a href="packages.html">Purchase</a></li>
                                 <li><a href="subscription.html">Subscription</a></li>
-                                <li><a href="#">Download App</a></li>
+                                <li><a href="">Download App</a></li>
                             </ul>
                         </div>
 

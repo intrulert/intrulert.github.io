@@ -6,6 +6,7 @@ font-weight: 300;
 }
 */
 
+/*
 @font-face {
     font-family: 'Raleway';
     src: url("../fonts/Raleway-Light.ttf");
@@ -17,6 +18,7 @@ font-weight: 300;
     src: url("../fonts/Raleway-Medium.ttf");
     font-weight: 600;
 }
+*/
 
 .button .button-primary {
     background-color: #FCD258;
@@ -149,7 +151,7 @@ nav {
 }
 
 .welcome {
-    margin-top: 25%;
+    margin-top: 30%;
 }
 
 .package {
@@ -200,7 +202,7 @@ nav {
     }
     
     .welcome {
-        margin-top: 15%;
+        margin-top: 10%;
     }
 }
 
